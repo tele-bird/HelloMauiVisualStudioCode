@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net8.0-ios</TargetFramework>
+    <OutputType>Library</OutputType>
+    <ApplicationId>com.companyname.HelloMauiNotificationServiceExtension</ApplicationId>
+    <ApplicationDisplayVersion>1.0</ApplicationDisplayVersion>
+    <ApplicationVersion>1</ApplicationVersion>
+    <SupportedOSPlatformVersion>15.4</SupportedOSPlatformVersion>
+    <RuntimeIdentifiers>iossimulator-arm64</RuntimeIdentifiers>
+  </PropertyGroup>
+  <PropertyGroup>
+      <IsAppExtension>true</IsAppExtension>
+      <IsWatchExtension>false</IsWatchExtension>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="OneSignalSDK.DotNet" Version="5.2.1" />
+  </ItemGroup>
+</Project>
